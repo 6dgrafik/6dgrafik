@@ -74,10 +74,8 @@ require_once('baglan.php');
                         <li><a href="sayfalar.php">Sayfalar</a></li>
                         <li><a href="yazilar.php">Yazılar</a></li>
                         <li><a href="kategori.php">Kategoriler</a></li>
-                        <li>
-                            <a href="mesajlar.php">Mesajlar</a>
-                          
-                        </li>
+                        <li><a href="mesajlar.php">Mesajlar</a></li>
+                        <li><a href="yorumlar.php">Yorumlar</a></li>
                         <li><a href="ayarlar.php">Ayarlar</a></li>
                         <li><a href="ctaekle.php">CTA Ayarları</a></li>
                         <li><a href="logout.php">Çıkış</a></li>
