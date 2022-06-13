@@ -7,6 +7,15 @@ if (!isset($_SESSION['kadi'])) {
 
 require_once('baglan.php');
 
+require_once('baglan.php');
+
+$sorgu_yorum = $db->prepare('select count(*) from yorumlar where durum = "onaylanmadı" ');
+$sorgu_yorum->execute();
+$satir_yorum = $sorgu_yorum->fetchColumn();
+
+$sorgu_mesajlar = $db->prepare('select count(*) from mesajlar where durum = "Okunmadı"');
+$sorgu_mesajlar->execute();
+$satir_mesajlar = $sorgu_mesajlar->fetchColumn();
 
 
 
